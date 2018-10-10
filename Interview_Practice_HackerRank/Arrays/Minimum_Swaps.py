@@ -1,7 +1,9 @@
 '''Find minimum number of swaps in an array of n elements. The idea is that the min
 number of swaps is the sum from 1 to number of cycles of (cycle_size - 1). E.g
 for [2,4,5,1,3] we have 2 cycles one between 5 and 3 which is size 2 and requires 1 swap
-and one between 2 4 and 1 which is of size 3 and requires 2 swaps. So total swaps of 3.'''
+and one between 2 4 and 1 which is of size 3 and requires 2 swaps. So total swaps of 3.
+
+Reference: https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/ '''
 
 
 def MinSwaps(arr):
